@@ -1,0 +1,6 @@
+Test Case,User Query,Expected Route,Expected Query ID,Expected Answer
+TC-01,"How much of our book is in real estate, and how much of that is non-performing?",verified,VQ1,"Real Estate outstanding ~$1,195M, NPA ~$89.9M"
+TC-02,Show me how our overdue book is distributed across DPD buckets.,verified,VQ8,"5 DPD buckets, 90+ has 49 loans / $1,183M"
+TC-03,"List every restructured loan, flag which are impaired, and show the overall impaired percentage.",generated,None,"35 restructured, 24 impaired (68.6%)"
+TC-04,"Show me the average interest rate by sector, sorted from highest to lowest.",generated,None,10 sectors with average interest rates
+TC-05,How has the Stage 3 book size and its expected credit loss moved over the last four quarters?,generated,None,Stage 3 EAD/ECL trend over 4 quarters
